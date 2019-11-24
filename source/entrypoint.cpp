@@ -1,7 +1,11 @@
 #include <stdexcept>
+#include <application.hpp>
 
 auto main() -> int try {
-	return 0;
+	sfx::application app {};
+	
+	return app.execute();
+
 
 }
 catch (std::exception const& exception) {

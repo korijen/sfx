@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\application.cpp" />
     <ClCompile Include="source\entrypoint.cpp" />
+    <ClCompile Include="source\window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\application.hpp" />
+    <ClInclude Include="source\window.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
